@@ -1,0 +1,26 @@
+/* Content for components/Automaton1DView.module.css */
+.automatonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+}
+.automatonRow {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+}
+.cell {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #eee;
+  cursor: default;
+}
+.cell.alive {
+  background-color: #333;
+}
+.cell.dead {
+  background-color: #fff;
+}
